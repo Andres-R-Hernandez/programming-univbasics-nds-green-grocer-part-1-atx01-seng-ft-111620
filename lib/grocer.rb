@@ -5,6 +5,7 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |item_on_shelf|
     if item_on_shelf[:item] == name
       return item_on_shelf
+    end
   end
 end
 
