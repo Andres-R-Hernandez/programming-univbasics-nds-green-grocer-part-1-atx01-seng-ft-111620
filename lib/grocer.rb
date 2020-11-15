@@ -34,6 +34,7 @@ def consolidate_cart(cart)
 #iterate over each item in the cart, counting each unique item
   unique_cart.map do |unique_item|
     unique_item[:count] = cart.count {|cart_item| cart_item == unique_item}
+    unique_item
   end
 end
 
