@@ -11,7 +11,7 @@ def find_item_by_name_in_collection(name, collection)
 end
 
 
-stuff = 
+stuff =
 [
 		{"AVOCADO" => {:price => 3.00, :clearance => true}},
 		{"KALE" => {:price => 3.00, :clearance => false}},
