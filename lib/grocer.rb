@@ -9,6 +9,21 @@ def find_item_by_name_in_collection(name, collection)
   end
   nil
 end
+
+
+stuff = 
+[
+		{"AVOCADO" => {:price => 3.00, :clearance => true}},
+		{"KALE" => {:price => 3.00, :clearance => false}},
+		{"BLACK_BEANS" => {:price => 2.50, :clearance => false}},
+    {"BLACK_BEANS" => {:price => 2.50, :clearance => false}},
+		{"TEMPEH" => {:price => 3.00, :clearance => true}},
+		{"CHEESE" => {:price => 6.50, :clearance => false}},
+    {"CHEESE" => {:price => 6.50, :clearance => false}},
+    {"CHEESE" => {:price => 6.50, :clearance => false}},
+		{"BEETS" => {:price => 2.50, :clearance => false}}
+]
+
 def consolidate_cart(cart)
   # Consult README for inputs and outputs
   #
