@@ -36,3 +36,5 @@ def consolidate_cart(cart)
     unique_item[:count] = cart.count {|cart_item| cart_item == unique_item}
   end
 end
+
+p consolidate_cart(stuff)
